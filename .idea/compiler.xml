@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ldhshopapimemberdto" />
+        <module name="ldhshopapiweixindto" />
         <module name="ldhshopbasiceureka" />
         <module name="ldhshopbasiczuul" />
+        <module name="ldhshopcommoncore" />
         <module name="ldhshopportal" />
         <module name="ldhshopserviceapimember" />
         <module name="ldhshopserviceapiweixin" />

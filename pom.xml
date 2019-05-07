@@ -13,6 +13,8 @@
         <module>ldh-shop-service-api</module>
         <module>ldh-shop-service-impl</module>
         <module>ldh-shop-portal</module>
+        <module>ldh-shop-common</module>
+        <module>ldh-shop-api-dto</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

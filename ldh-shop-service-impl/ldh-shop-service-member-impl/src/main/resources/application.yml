@@ -5,6 +5,18 @@ server:
 spring:
   application:
     name: shop-service-member
+  #redis配置
+  redis:
+    database: 0
+    host: 127.0.0.1
+    password: 123456
+    port: 6379
+  ###数据库相关连接
+  datasource:
+    username: root
+    password:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/ldh-shop-member
 ###服务注册到eureka地址
 eureka:
   client:
@@ -20,3 +32,8 @@ swagger:
   contact:
     name: 刘德煌
     email: 2969878315@qq.com
+#打印mybatis日志
+logging:
+  level:
+#开发环境使用debug，生产环境使用info或error
+    com.liudehuang.member.mapper: debug

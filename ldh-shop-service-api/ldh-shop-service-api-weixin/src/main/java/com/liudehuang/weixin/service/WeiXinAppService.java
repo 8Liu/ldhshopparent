@@ -1,5 +1,6 @@
 package com.liudehuang.weixin.service;
 
+import com.liudehuang.core.base.BaseResponse;
 import com.liudehuang.weixin.entity.AppEntity;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -19,5 +20,7 @@ public interface WeiXinAppService {
      */
     @ApiOperation("获取应用详情")
     @GetMapping("getApp")
-    AppEntity getApp();
+    BaseResponse<AppEntity> getApp();
+
+
 }
