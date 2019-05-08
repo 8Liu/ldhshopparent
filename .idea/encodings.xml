@@ -10,7 +10,9 @@
     <file url="file://$PROJECT_DIR$/ldh-shop-basic/ldh-shop-basic-zuul" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ldh-shop-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ldh-shop-common/ldh-shop-common-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ldh-shop-common/ldh-shop-web-core" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ldh-shop-portal" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ldh-shop-portal/ldh-shop-portal-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ldh-shop-service-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ldh-shop-service-api/ldh-shop-service-api-member" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ldh-shop-service-api/ldh-shop-service-api-weixin" charset="UTF-8" />

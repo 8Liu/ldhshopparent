@@ -7,6 +7,8 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 /**
  * 用户登录接口服务类
@@ -14,6 +16,7 @@ import org.springframework.web.bind.annotation.RequestBody;
  * @date 2019/5/6 16:53
  */
 @Api(tags = "会员登录接口")
+@RequestMapping("/member")
 public interface MemberLoginService {
     /**
      * 用户登陆接口
@@ -24,4 +27,7 @@ public interface MemberLoginService {
     @PostMapping("/login")
     @ApiOperation(value = "会员用户登陆信息接口")
     BaseResponse<JSONObject> login(@RequestBody UserLoginInpDTO userLoginInpDTO);
+
+    @PostMapping("/exit")
+    BaseResponse<JSONObject> exit(@RequestParam("token") String token);
 }

@@ -42,6 +42,6 @@ public interface MemberService {
      * @return
      */
     @GetMapping("/getUserInfo")
-    @ApiOperation(value = "/getUserInfo")
+    @ApiOperation(value = "根据token获取用户信息")
     BaseResponse<UserOutDTO> getInfo(@RequestParam("token") String token);
 }

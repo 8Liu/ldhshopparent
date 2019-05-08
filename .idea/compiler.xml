@@ -11,11 +11,12 @@
         <module name="ldhshopbasiceureka" />
         <module name="ldhshopbasiczuul" />
         <module name="ldhshopcommoncore" />
-        <module name="ldhshopportal" />
+        <module name="ldhshopportalweb" />
         <module name="ldhshopserviceapimember" />
         <module name="ldhshopserviceapiweixin" />
         <module name="ldhshopservicememberimpl" />
         <module name="ldhshopserviceweixinimpl" />
+        <module name="ldhshopwebcore" />
       </profile>
     </annotationProcessing>
   </component>

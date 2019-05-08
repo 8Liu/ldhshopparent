@@ -28,5 +28,10 @@ public class UserLoginInpDTO {
 	 */
 	@ApiModelProperty(value = "设备信息")
 	private String deviceInfor;
+	/**
+	 * 腾讯开放ID
+	 */
+	@ApiModelProperty(value = "腾讯开放ID")
+	private String qqOpenId;
 
 }

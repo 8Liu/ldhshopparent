@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>ldh-shop-common-core</module>
+        <module>ldh-shop-web-core</module>
     </modules>
 
 

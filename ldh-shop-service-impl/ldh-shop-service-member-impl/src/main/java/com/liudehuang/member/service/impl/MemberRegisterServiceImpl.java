@@ -36,10 +36,6 @@ public class MemberRegisterServiceImpl extends BaseApiService implements MemberR
     @Override
     public BaseResponse<JSONObject> register(@RequestBody UserInpDTO userInpDTO, @RequestParam("registerCode") String registerCode) {
         //1.参数验证
-        String userName = userInpDTO.getUserName();
-        if(StringUtils.isEmpty(userName)){
-            return setResultError("用户名称不能为空!");
-        }
         String phone = userInpDTO.getMobile();
         if(StringUtils.isEmpty(phone)){
             return setResultError("电话号码不能为空!");
