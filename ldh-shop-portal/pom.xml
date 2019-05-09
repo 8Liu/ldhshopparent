@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>ldh-shop-portal-web</module>
+        <module>ldh-shop-portal-pay-web</module>
     </modules>
 
     <dependencies>

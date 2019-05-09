@@ -14,6 +14,7 @@
     <modules>
         <module>ldh-shop-basic-eureka</module>
         <module>ldh-shop-basic-zuul</module>
+        <module>ldh-shop-basic-xxl-sso-server</module>
     </modules>
     <dependencies>
         <!--SpringCloud eureka-server -->

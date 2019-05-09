@@ -3,6 +3,7 @@ package com.liudehuang.member.service;
 import com.alibaba.fastjson.JSONObject;
 import com.liudehuang.core.base.BaseResponse;
 import com.liudehuang.input.dto.UserLoginInpDTO;
+import com.liudehuang.output.dto.UserOutDTO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -30,4 +31,6 @@ public interface MemberLoginService {
 
     @PostMapping("/exit")
     BaseResponse<JSONObject> exit(@RequestParam("token") String token);
+
+
 }
