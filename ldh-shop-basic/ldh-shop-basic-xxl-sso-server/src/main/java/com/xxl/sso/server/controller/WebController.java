@@ -19,6 +19,7 @@ import nl.bitwalker.useragentutils.Browser;
 import nl.bitwalker.useragentutils.UserAgent;
 import nl.bitwalker.useragentutils.Version;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -39,9 +40,12 @@ public class WebController extends BaseWebController {
     @Autowired
     private MemberServiceFeign memberServiceFeign;
 
+    @Value("${server.port}")
+    private String serverPort;
+
     @RequestMapping("/")
     public String index(Model model, HttpServletRequest request, HttpServletResponse response) {
-
+        System.out.println("serverPort:"+serverPort);
         // login check
         XxlSsoUser xxlUser = SsoWebLoginHelper.loginCheck(request, response);
 
@@ -62,7 +66,6 @@ public class WebController extends BaseWebController {
      */
     @RequestMapping(Conf.SSO_LOGIN)
     public String login(Model model, HttpServletRequest request, HttpServletResponse response) {
-
         // login check
         XxlSsoUser xxlUser = SsoWebLoginHelper.loginCheck(request, response);
 
