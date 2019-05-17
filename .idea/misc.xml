@@ -9,6 +9,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/ldh-shop-pay-plugin/ldh-shop-ali-pay-plugin/pom.xml" />
         <option value="$PROJECT_DIR$/ldh-shop-service/pom.xml" />
       </set>
     </option>

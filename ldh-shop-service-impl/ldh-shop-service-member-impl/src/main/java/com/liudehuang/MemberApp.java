@@ -15,7 +15,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableEurekaClient
 @EnableFeignClients
 @EnableSwagger2Doc
-@MapperScan(basePackages = "com.liudehuang.member.mapper")
+@MapperScan(basePackages = "com.liudehuang.member.dao")
 public class MemberApp {
 
     public static void main(String[] args) {

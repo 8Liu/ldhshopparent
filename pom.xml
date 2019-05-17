@@ -15,6 +15,7 @@
         <module>ldh-shop-portal</module>
         <module>ldh-shop-common</module>
         <module>ldh-shop-api-dto</module>
+        <module>ldh-shop-pay-plugin</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

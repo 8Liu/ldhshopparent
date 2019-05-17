@@ -14,6 +14,8 @@
     <modules>
         <module>ldh-shop-service-api-weixin</module>
         <module>ldh-shop-service-api-member</module>
+        <module>ldh-shop-service-api-pay</module>
+        <module>ldh-shop-service-api-integral</module>
     </modules>
     <dependencies>
         <!-- swagger-spring-boot -->

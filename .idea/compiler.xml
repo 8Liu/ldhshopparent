@@ -6,7 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ldhshopalipayplugin" />
         <module name="ldhshopapimemberdto" />
+        <module name="ldhshopapipaydto" />
         <module name="ldhshopapiweixindto" />
         <module name="ldhshopbasiceureka" />
         <module name="ldhshopbasicxxlssoserver" />
@@ -14,10 +16,15 @@
         <module name="ldhshopcommoncore" />
         <module name="ldhshopportalpayweb" />
         <module name="ldhshopportalweb" />
+        <module name="ldhshopserviceapiintegral" />
         <module name="ldhshopserviceapimember" />
+        <module name="ldhshopserviceapipay" />
         <module name="ldhshopserviceapiweixin" />
+        <module name="ldhshopserviceintegralimpl" />
         <module name="ldhshopservicememberimpl" />
+        <module name="ldhshopservicepayimpl" />
         <module name="ldhshopserviceweixinimpl" />
+        <module name="ldhshopunionpayplugin" />
         <module name="ldhshopwebcore" />
       </profile>
     </annotationProcessing>

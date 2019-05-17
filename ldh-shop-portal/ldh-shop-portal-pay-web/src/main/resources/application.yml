@@ -13,6 +13,10 @@ spring:
     - classpath:/templates
   application:
     name: shop-pay-web
+  redis:
+    hostname: 127.0.0.1
+    port: 6379
+    password: 123456
 ###服务注册到eureka地址
 eureka:
   client:
@@ -21,13 +25,3 @@ eureka:
 server:
   port: 81
 
-xxl-sso:
-  excluded:
-    paths:
-xxl:
-  sso:
-    server: http://127.0.0.1:8080/xxl-sso-server
-    logout:
-      path: /logout
-    redis:
-      address: redis://127.0.0.1:6379

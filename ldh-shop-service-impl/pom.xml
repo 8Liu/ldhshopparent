@@ -14,6 +14,8 @@
     <modules>
         <module>ldh-shop-service-weixin-impl</module>
         <module>ldh-shop-service-member-impl</module>
+        <module>ldh-shop-service-pay-impl</module>
+        <module>ldh-shop-service-integral-impl</module>
     </modules>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-openfeign -->

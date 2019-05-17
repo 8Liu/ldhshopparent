@@ -4,6 +4,7 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ldh-shop-api-dto" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ldh-shop-api-dto/ldh-shop-api-member-dto" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ldh-shop-api-dto/ldh-shop-api-pay-dto" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ldh-shop-api-dto/ldh-shop-api-weixin-dto" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ldh-shop-basic" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ldh-shop-basic/ldh-shop-basic-eureka" charset="UTF-8" />
@@ -12,14 +13,23 @@
     <file url="file://$PROJECT_DIR$/ldh-shop-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ldh-shop-common/ldh-shop-common-core" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ldh-shop-common/ldh-shop-web-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ldh-shop-pay-plugin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ldh-shop-pay-plugin/ldh-shop-ali-pay-plugin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ldh-shop-pay-plugin/ldh-shop-alipay-plugin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ldh-shop-pay-plugin/ldh-shop-alipay-plugin/src/main/java/com/liudehuang/alipay/config/AlipayConfig.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ldh-shop-pay-plugin/ldh-shop-unionpay-plugin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ldh-shop-portal" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ldh-shop-portal/ldh-shop-portal-pay-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ldh-shop-portal/ldh-shop-portal-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ldh-shop-service-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ldh-shop-service-api/ldh-shop-service-api-integral" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ldh-shop-service-api/ldh-shop-service-api-member" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ldh-shop-service-api/ldh-shop-service-api-pay" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ldh-shop-service-api/ldh-shop-service-api-weixin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ldh-shop-service-impl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ldh-shop-service-impl/ldh-shop-service-integral-impl" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ldh-shop-service-impl/ldh-shop-service-member-impl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ldh-shop-service-impl/ldh-shop-service-pay-impl" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ldh-shop-service-impl/ldh-shop-service-weixin-impl" charset="UTF-8" />
   </component>
 </project>

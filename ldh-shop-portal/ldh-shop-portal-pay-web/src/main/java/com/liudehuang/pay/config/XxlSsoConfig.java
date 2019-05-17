@@ -1,3 +1,4 @@
+/*
 package com.liudehuang.pay.config;
 
 import com.xxl.sso.core.conf.Conf;
@@ -9,10 +10,17 @@ import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+*/
 /**
  * @author xuxueli 2018-11-15
- */
-@Configuration
+ *//*
+
+
+*/
+/**
+ * @Configuration
+ *//*
+
 public class XxlSsoConfig implements DisposableBean {
 
 
@@ -57,3 +65,4 @@ public class XxlSsoConfig implements DisposableBean {
     }
 
 }
+*/

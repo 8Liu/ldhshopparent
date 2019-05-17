@@ -14,6 +14,7 @@
     <modules>
         <module>ldh-shop-api-member-dto</module>
         <module>ldh-shop-api-weixin-dto</module>
+        <module>ldh-shop-api-pay-dto</module>
     </modules>
 
     <dependencies>
